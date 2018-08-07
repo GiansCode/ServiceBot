@@ -1,0 +1,39 @@
+{
+  "botToken": "<bot token>",
+  "guildId": "<id of guild>",
+  "channelCategoryId": "<id of category to create channels in>",
+  "inactiveCategoryId": "<id of category to move inactive channels to>",
+  "inactivityThreshold": 1209600000,
+  "alertChannelId": "<id of channel to send alerts to",
+  "bypassRoleId": "<id of team member role>",
+  "defaultRoleId": "<id of default role to give>",
+  "gamePresence": "Doing stuff",
+  "commandPrefix": "!",
+  "messages":
+  {
+    "created_channel": "Created channel for user %s - %s",
+    "add_usage": "Usage: !adduser <user>",
+    "remove_usage": "Usage: !removeuser <user>",
+    "invalid_user": "That user could not be found",
+    "no_bots": "You cannot add bot users",
+    "no_self": "You cannot %s yourself",
+    "already_in": "That user is already in the channel",
+    "not_in": "That user is not in the channel",
+    "added_user": "Added user %s to the channel",
+    "removed_user": "Removed user %s from the channel",
+    "bypass_user": "You cannot %s Team Members as they can already see the channel",
+    "created_welcome": "Created your private channel %s",
+    "channel_became_inactive": "Channel %s became inactive",
+    "channel_no_longer_inactive": "Channel %s is no longer inactive",
+    "embed_title": "Commands",
+    "embed_message":
+    [
+      "",
+      "!adduser <user>",
+      "Adds a user to the channel",
+      "",
+      "!removeuser <user>",
+      "Removes a user from the channel"
+    ]
+  }
+}
